@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER AREA START -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+            <div class="container">
+                
+              <a class="navbar-brand fs-4" href="#">LOGO</a>
+
+              <button 
+              class="navbar-toggler shadow-none border-0" 
+              type="button" 
+              data-bs-toggle="offcanvas" 
+              data-bs-target="#offcanvasNavbar" 
+              aria-controls="offcanvasNavbar" 
+              aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header border-bottom border-dark bg-dark">
+                  <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">LOGO</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+
+                    <li class="nav-item ">
+                      <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active text-white" href="#">About Me</a>
+                    </li>
+                      
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">My Skills</a>
+                    </li>    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">My Project</a>
+                    </li>  
+
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- HEADER AREA END -->
+
+    <!-- HOME PAGE START -->
+
+    <div class="container text-center justify-content-center">
+      <div class="row">
+        <div class="col-6" id="homeText">
+          <p>HELLO</p>
+          <p><b>Yunus Caynak</b></p>
+          <p>Web Developer</p>
+        </div>
+        <div class="col-6">
+          <img src="foto1.png" alt="Yunus Caynak" id="foto">
+        </div>
+     </div>
+    </div>
+
+    <!-- HOME PAGE END -->
+
+    <!-- ABOUT PAGE START -->
+
+    <div class="container text-center" id="aboutArea">
+      <div class="row">
+        <div class="col" id="aboutTitle">
+          <p>About Me</p>
+        </div>
+        <div class="col text-center" id="aboutText">
+            <p> 
+                I was born in Turkey, I am 19 years old. 
+                I am a first year computer programming student and 
+                I have been working with software for about 3 years.
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT PAGE END -->
+
+    <!-- SKILLS PAGE START -->
+
+    <div class="container text-center" id="skillsArea">
+      <div class="row">
+        <div class="col" id="skillsIcon">
+          <i class="fa-brands fa-html5" alt="html"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+          <i class="fa-brands fa-node"></i>
+        </div>
+        <div class="col" id="skillsTitle">
+        <p>My Skills</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILLS PAGE END -->
+
+    <!-- PROJECTS PAGE START -->
+
+    <div class="container text-center" id="projectsArea">
+      <div class="row">
+        <div class="col" id="projectsTitle">
+          <p>My Projects</p>
+        </div>
+        <div class="col" id="projectsText">
+          <p>All my projects are on GitHub</p>
+          <i class="fa-brands fa-github"> Github</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS PAGE END -->
+
+
+
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
